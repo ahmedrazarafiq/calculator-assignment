@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/back-school-decoration-with-pencils-calculator-space_23-2147662344.jpg?w=740&t=st=1715245812~exp=1715246412~hmac=5b97b348875ff36d83ea2457c0be5e8e797584e082ec7716e67cc2cea65d883c');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-heading {
+    text-align: center;
+    color: #abf7c2;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+}
+
+.calculator-heading:hover {
+    color: #4CAF50;
+}
+
+
+.calculator-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input-box, .result-box {
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    width: calc(100% - 20px);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box:hover, .result-box:hover {
+    background-color: #f5f5f5;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#clear {
+    background-color: #f44336;
+   
+}
+
+#clear:hover {
+    background-color: #d32f2f;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
